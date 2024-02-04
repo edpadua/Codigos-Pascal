@@ -9,7 +9,7 @@ type pessoa=record nome,endereco: string;
               end;
      cadastro=array [1..5] of pessoa;
 
-     opiniao=(bosta,bom,legal,merda,cassete,otimo,interessante);
+     opiniao=(péssimo,bom,legal,ruim,horrível,otimo,interessante);
 
 procedure inserirdados(var vetor:cadastro);
 
@@ -22,7 +22,7 @@ begin
         begin
               writeln('Digite o nome');
               readln(vetor[Indice1].nome);
-              writeln('Digite o endere�o');
+              writeln('Digite o endere‡o');
               readln(vetor[Indice1].endereco);
               writeln('Digite a idade');
               readln(vetor[Indice1].idade);
